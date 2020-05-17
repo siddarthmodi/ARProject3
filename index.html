@@ -3,8 +3,10 @@
 <title>Happy Birthday Shubham</title>
 <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-<script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
-<script src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js"></script>
+<script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js">
+</script>
+<script src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js">
+</script>
 
 <body style="margin: 0px; overflow: hidden;">
     <a-scene embedded arjs="debugUIEnabled: false;">
@@ -18,7 +20,7 @@
         <a-marker preset="hiro">
             <a-obj-model src="#cake-obj" mtl="#cake-mtl" rotation="60 20 -155" scale="1 0.5 1"></a-obj-model>
             <a-entity rotation="50 100 80">
-                <a-entity position="0 -7 -15" particle-system="preset: default; color:#f9e154; accelerationValue: 0, -10, 0; particleCount: 5000; direction: -1; rotationAxis: z; rotation:-90, 0 0">
+                <a-entity position="0 -100 -80" particle-system="preset: default; color:#f9e154; accelerationValue: 0, -10, 0; particleCount: 5000; direction: -1; rotationAxis: z; rotation:-90, 0 0">
                 </a-entity>
             </a-entity>
             <a-entity rotation="-120 0 0" scale="1 1 1">
