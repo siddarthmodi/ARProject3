@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Happy Birthday Shubham</title>
+<title>Happy Birthday Chummee</title>
 <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js">
@@ -18,13 +18,14 @@
         </a-assets>
 
         <a-marker preset="hiro">
-            <a-obj-model src="#cake-obj" mtl="#cake-mtl" rotation="60 20 -155" scale="1 0.5 1"></a-obj-model>
-            <a-entity rotation="50 100 80">
-                <a-entity position="0 -7 -15" particle-system="preset: default; color:#f9e154; accelerationValue: 0, -10, 0; particleCount: 5000; direction: -1; rotationAxis: z; rotation:-90, 0 0">
+            <a-obj-model src="#cake-obj" mtl="#cake-mtl" position="0 0.5 -1" rotation="130 20 -155" scale="2 1.5 3">
+            </a-obj-model>
+            <a-entity rotation="0 0 0">
+                <a-entity position="0 0 -10" particle-system="preset: default; color:#f9e154; accelerationValue: 0, -10, 0; particleCount: 5000; direction: -1; rotationAxis: z; rotation:-90, 0 0">
                 </a-entity>
             </a-entity>
-            <a-entity rotation="-120 0 0" scale="1 1 1">
-                <a-entity position="0 0.5 0" material="color: red" scale="0.5 0.5 0.5" text-geometry="value: Happy Birthday Shubham; font: #brush" sound="src:#bday; autoplay: true; loop: true; on:click">
+            <a-entity rotation="-120 0 10">
+                <a-entity position="-1.5 0.5 3" material="color: red" scale="0.5 0.5 0.5" text-geometry="value: Happy Birthday Chummee; font: #brush" sound="src:#bday; autoplay: true; loop: true; on:click">
                 </a-entity>
             </a-entity>
         </a-marker>
